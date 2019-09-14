@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+
+
+<link rel="stylesheet" type="text/css" href="../../bootstrap-4.0.0-dist/css/bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="Index @ CSS FILE.css" />
+
+
+
+
+
+<title>World Travel</title>
+
+
+
+	
+	
+	
+	
+</head>
+
+<body>
+
+<div id="container">
+	
+	
+	
+	<!--Video content part with head and nav-->
+	
+	<div id="Video-Content">
+	
+	
+	
+	<!--Nav Start-->
+	<nav>
+	
+	<!-- Nav left start-->
+		<div class="nav-left">
+		
+		<div class="nav-text-hover">
+		<div class=".mainheading">	
+		<h2>UNREAL TRAVELS</h2></div>
+    	<div class="overlay-content">
+    	
+    			<a href="#home">Home</a>
+    			<a href="#Travel">Travel</a>
+    			<a href="#Intro">Intro</a>
+    			<a href="#About Us">About Us</a>
+    			
+    			
+    			
+    		
+    	
+    	</div>    
+       </div>
+     
+     
+		</div>
+		
+		<!-- nav left End-->
+		<!-- nav Right Start-->
+		
+		<div class="nav-right">
+			<div class="nav-right-hover">
+			<div class="nav-left-text-hover">
+		<div class="join us">	
+		<h2>Join Us</h2></div>
+    	<div class="overlay-content-right">
+    	
+    			<a href="#Login">Login</a>
+    			<a href="#Sign Up">Sign up</a>
+		</div>
+			</div>
+			</div>
+		</div>
+		<!-- nav Right End-->
+
+	</nav>
+	
+	<!--Nav End-->
+	
+	<!--Header Start-->
+	<header>
+	<div class="video-container">
+		<video src="My Video1.mp4" autoplay loop height="600px"></video>
+	</div>
+	<div class="video-overlay"></div>
+	<div class="video-overlay-text">
+		
+	<h1>Become A Traveler</h1>
+	<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+		
+		
+		
+	</div>
+		
+		
+	</header>
+	<!--Header End-->
+	
+	</div>
+	
+	
+	<!--Video content part with head and nav END-->
+	
+	
+	<!--slider start-->
+	<section id="slider">
+	
+	
+	<!-- SILDES HERE ONLY-->
+		<div class="slides">
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+			
+			
+		</div>
+		
+		
+		<!-- SILDES HERE ONLY-->
+		
+		
+	</section>
+
+	<!--Slider End-->
+	
+	<!--Content Start-->
+	<section id="content">
+		
+	</section>
+	<!--Conetent End-->
+	
+	<!-- Footer start-->
+	<footer>
+		
+		
+		
+		
+	</footer>
+	<!--Footer End-->
+	
+	
+	
+	
+</div>
+
+</body>
+</html>
