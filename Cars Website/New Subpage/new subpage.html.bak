@@ -1,0 +1,338 @@
+
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+
+
+	
+	<!-- Start WOWSlider.com HEAD section -->
+	<link rel="stylesheet" type="text/css" href="engine26/style.css" />
+	<script type="text/javascript" src="engine26/jquery.js"></script>
+	<!-- End WOWSlider.com HEAD section -->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine27/style.css" />
+	<!--script type="text/javascript" src="engine27/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section -->
+	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
+	<link rel="stylesheet" type="text/css" href="engine28/style.css" />
+	<!--script type="text/javascript" src="engine28/jquery.js"></script-->
+	<!-- End WOWSlider.com HEAD section --></head>
+	
+
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		
+	}
+	
+	#container{
+		width: 100;
+		height: 1450px;
+		background-color: aquamarine
+	}
+	
+	#nav{
+		width: 100%;
+		height: 50px;
+		background-color: black
+	}
+	
+	ul{
+		list-style-type: none;
+		margin: 0%;
+		padding: 0%;
+		overflow: hidden;
+		background-color: black
+	}
+	
+	li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 16px 16px;
+		text-decoration: none;
+		float: left
+	}
+	
+	
+	
+	#top-half{
+		width: 100%;
+		height: 700px;
+		background-color: white;
+		position: absolute
+		
+	
+	}
+	
+	
+	#bottom-half{
+		width: 100%;
+		height: 700px;
+		background-color:orangered;
+		position: absolute;
+		margin-top: 36.8%
+		
+
+	}
+	
+	#left-para{
+		width: 30%;
+		height: 580px;
+		background-color: #ECECEC;
+		position: absolute;
+		margin-top: 4.8%;
+		margin-left:2%;
+		border-radius: 15% 0.5% 15% 0.5% ;
+		
+	}
+	
+	#leftpara{
+		width: 97%;
+		height: 550px;
+		margin-top: 12%;
+		font-size: 154%;
+		margin-left: 1.5%;
+		color: #1F1F1F ;
+		font-style: oblique;
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+		
+	}
+
+	#leftside{
+		width: auto;
+		height: auto;
+		background-color: white;
+		
+		
+	}
+	
+	#paratitle1{
+		width: 30%;
+		height: 70px;
+		position: absolute;
+		margin-left: 2%;
+		background-color:white;
+		margin-top: 0.9%;
+		color: #1E1E1E;
+		}
+	
+	h1{
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+		font-style: oblique
+	}
+	
+	#right-pic{
+		width: 65%;
+		height: 650px;
+		background-color: white;
+		margin-left: 35%;
+		position: absolute;
+		margin-top: 1.1%;
+		border-radius: 1%;
+	}
+	
+	#img-name1 {
+		width: 100%;
+		height: 70px;
+		background-color: white;
+	}
+	
+	#img1{
+		width: 100%;
+		height: 578px;
+		background-color: white;
+		background: contain
+	}
+	
+	
+	#left-pic{
+		width: 65%;
+		height: 650px;
+		background-color: yellow;
+		margin-top: 1.2%;
+		position: absolute;
+		border-radius: 1%
+	}
+	
+	#img-name2{
+		width: 100%;
+		height: 70px;
+		background-color: grey
+	}
+
+		
+	#img2{
+		width: 100%;
+		height: 580px;
+		background-color: cornsilk
+	}
+	
+	
+
+	#right-para{
+		width: 30%;
+		height: 580px;
+		background-color:#ECECEC;
+		margin-left: 69%;
+		margin-top: 4.9%;
+		position: absolute;
+		border-radius:  0.5% 15% 0.5% 15%;
+		
+	}
+	
+	#rightpara{
+		width: 98%;
+		margin-top: 11.1%;
+		font-size: 154%;
+		margin-left: 1.5%;
+		color: #1F1F1F;
+		font-style: italic;
+		margin-bottom: 2%;
+		color: #1F1F1F;
+		font-style: oblique;
+		font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif"
+		
+	}
+	
+	
+	
+	</style>
+	
+	
+	
+	
+
+
+
+
+<body>
+<div id="container">
+<div id="nav">
+	<ul>
+		<li><a href="../../BMW ASSIGNMENT/BMW web design.html"><b>Home</b></a></li>
+		<li><a href="../../Sub page Work/Sub page Work/subpage.html"><b>Models</b></a></li>
+		<li><a href="../../Sub page Work/New Subpage/BMW web design.html"><b>Contact</b></a></li>
+		<li><a href="../../Sub page Work/New Subpage/BMW web design.html"><b>About</b></a></li>
+		</ul>
+
+</div>
+<div id="top-half">
+<div id="leftside">
+<div id="paratitle1">
+	<h1 style="font-size:400%" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;THE REBORN</h1>
+</div>
+<div id="left-para">
+	<div id="leftpara"><p>
+		BMW AG originated with three other manufacturing companies, Rapp Motorenwerke and Bayerische Flugzeugwerke (BFw) in Bavaria, and Fahrzeugfabrik Eisenach in Thuringia. The company is now known as BMW or Bayerische Motoren Werke.<br><br> Aircraft engine manufacturer Rapp Motorenwerke became Bayerische Motorenwerke in 1916. The engine manufacturer, which built proprietary industrial engines after World War I, was then bought by the owner of BFw who then merged BFw into BMW and moved the engine works onto BFw's premises.<br><br> BFw's motorcycle sideline was improved upon by BMW and became an integral part of their business.
+		</p>
+	
+		
+	</div>
+</div>
+</div>
+<div id="right-pic">
+	
+
+<div id="img-name1">
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container27">
+	<div class="ws_images"><ul>
+		<li><img src="data27/images/firsttitle1.png" alt="FIRSTtitle1" title="FIRSTtitle1" id="wows27_0"/></li>
+		<li><a href="http://wowslider.net"><img src="data27/images/firsttitle2.png" alt="html5 slideshow" title="FIRSTtitle2" id="wows27_1"/></a></li>
+		<li><img src="data27/images/firsttitle3.png" alt="FIRSTtitle3" title="FIRSTtitle3" id="wows27_2"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine27/wowslider.js"></script>
+	<script type="text/javascript" src="engine27/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+	
+	
+	</div>
+	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
+	<div id="wowslider-container28">
+	<div class="ws_images"><ul>
+		<li><img src="data28/images/bmwe90wallpaper2.jpg" alt="bmw-e90-wallpaper-2" title="bmw-e90-wallpaper-2" id="wows28_0"/></li>
+		<li><a href="http://wowslider.net"><img src="data28/images/8ed8401121a56fac97cbb928d61898c6.jpg" alt="html slider" title="8ed8401121a56fac97cbb928d61898c6" id="wows28_1"/></a></li>
+		<li><img src="data28/images/47acf054eff3f22c3d76d0679e6b0ad1.jpg" alt="47acf054eff3f22c3d76d0679e6b0ad1" title="47acf054eff3f22c3d76d0679e6b0ad1" id="wows28_2"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v8.8</div>
+	<div class="ws_shadow"></div>
+	</div>	
+	<script type="text/javascript" src="engine28/wowslider.js"></script>
+	<script type="text/javascript" src="engine28/script.js"></script>
+	<!-- End WOWSlider.com BODY section -->
+<div id="img1">
+	
+
+
+</div>
+</div>
+</div>
+<div id="bottom-half">
+	
+	<div id="left-pic">
+	<div id="img-name2">
+	
+	
+	
+	<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container26">
+<div class="ws_images"><ul>
+		<li><img src="data26/images/firsttitle1.png" alt="FIRSTtitle1" title="FIRSTtitle1" id="wows26_0"/></li>
+		<li><img src="data26/images/secondtitle1.png" alt="secondtitle1" title="secondtitle1" id="wows26_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data26/images/secondtitle2.png" alt="bootstrap slider" title="secondtitle2" id="wows26_2"/></a></li>
+		<li><img src="data26/images/secondtitle3.png" alt="secondtitle3" title="secondtitle3" id="wows26_3"/></li>
+	</ul></div>
+<div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">responsive slider</a> by WOWSlider.com v8.8</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine26/wowslider.js"></script>
+<script type="text/javascript" src="engine26/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+		
+		
+		
+		
+		
+		
+	</div>
+	<div id="img2">
+	</div>
+		
+	</div>
+	<div id="right-para">
+		
+			<div id="rightpara"><p>
+		BMW AG originated with three other manufacturing companies, Rapp Motorenwerke and Bayerische Flugzeugwerke (BFw) in Bavaria, and Fahrzeugfabrik Eisenach in Thuringia. The company is now known as BMW or Bayerische Motoren Werke.<br><br> Aircraft engine manufacturer Rapp Motorenwerke became Bayerische Motorenwerke in 1916. The engine manufacturer, which built proprietary industrial engines after World War I, was then bought by the owner of BFw who then merged BFw into BMW and moved the engine works onto BFw's premises.<br><br> BFw's motorcycle sideline was improved upon by BMW and became an integral part of their business.
+		</p>
+	
+		
+	</div>
+	</div>
+</div>
+	</div>
+
+
+
+</body>
+</html>
