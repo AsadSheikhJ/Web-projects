@@ -1,0 +1,539 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sign Up</title>
+	
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+<link rel="stylesheet" type="text/css" href="bootstrap-grid.min.css"/>
+</head>
+	
+	<style>
+
+        /*CONTAINER---------------------------------------------------------------------------------------------->*/
+		.container-fluid{
+			height: auto;
+			width: auto;
+            background-image:url("img/1094423.jpg");
+            background-size: cover;
+			
+		}
+		
+		header{
+			background-color: black;
+			height: auto;
+		}
+		
+		.logo{
+            height: auto;
+			
+		}
+		
+		.title{
+			height: auto;
+		}
+		
+        nav{
+            background-color: aliceblue;
+        }
+        
+         .nav-item a {
+                    display: inline-block;
+                    text-decoration: none;
+                    color: black;
+                    padding: 12px 12px 12px 12px;
+                }
+                
+                .nav-item a:hover{
+                    background-color: #CBCBCB;
+                }
+                .dropdown{
+                    display: inline-block;
+                    position: relative;
+                }
+                .dropdownbtn{
+                    background-color:inherit;
+                }
+                
+                .dropdown-content{
+                    display: none;
+                    position: absolute;
+                    min-width: 120px;
+                    z-index: 1;
+                    border: 1px solid #ABABAB;
+                    border-radius: 3px 3px 3px 3px;
+                }
+                
+                .dropdown-content a {
+                    color: black;
+                    padding: 16px 20px;
+                    text-decoration: none;
+                    display: block;
+                    background-color: white;
+                }
+                
+                .dropdown:hover .dropdownbtn{
+                    background-color:#CBCBCB;
+                }
+                
+                .dropdown:hover .dropdown-content{
+                    display: block;
+                    margin-top: 10%;
+                }
+                
+                .dropdown-content a:hover{
+                    background-color: #CBCBCB;
+                }
+                
+        
+		.content{
+			height: auto;
+			margin: 2%;
+		}
+        
+        }
+        
+        .content .col-lg-6{
+            background-color:white;
+        } 
+        
+        
+        .signup_panel{
+            background-color: aliceblue;
+			border: solid #D8D8D8;
+			border-radius: 7px 7px 7px 7px;
+			margin: 5%;
+		}
+        
+        form span{
+            color: red;
+            font-style: italic;
+            padding: 0 0 0 8px;
+        }
+		
+        /*Form Style-------------------------------------------------------------------------------------------------------------->*/
+        
+        
+         
+         
+		
+		/*INPUT MATERIAL OF FORMS STYLES------------------------------------------------------------------------------------------->*/
+        input[type=text]{
+		height: 39px;
+		padding: 8px 8px;
+		box-sizing:  border-box;
+		border: 3px solid #555;
+		transition: 0.5s;
+		outline: none;
+        width: 50%;
+
+	    }
+	
+	    input[type=text]:focus {
+		
+		border: 3px solid #ccc
+	    }
+        
+    	input[type=password]{
+		height: 39px;
+		padding: 8px 8px;
+		box-sizing:  border-box;
+		border: 3px solid #555;
+		transition: 0.5s;
+		outline: none;
+        width: 50%;
+	    }
+        
+        select{
+            padding: 4px 6px;
+            box-sizing: border-box;
+            border:3px solid #555;
+            transition: 0.5s;
+            outline: none;
+        }
+        select:focus{
+		border: 3px solid #ccc
+        }
+	
+	    
+    	input[type=email]{
+		height: 39px;
+		padding: 8px 8px;
+		box-sizing:  border-box;
+		border: 3px solid #555;
+		transition: 0.5s;
+		outline: none;
+        width: 50%;
+	    }
+	
+	    input[type=email]:focus {
+		
+		border: 3px solid #ccc
+	    }
+		
+		input[type=date]{
+		height: 39px;
+		padding: 8px 8px;
+		box-sizing:  border-box;
+		border: 3px solid #555;
+		transition: 0.5s;
+		outline: none;
+        width: 50%;
+	    }
+        
+		input[type=date]:focus {
+		
+		border: 3px solid #ccc
+	    }
+        
+    	input[type=tel]{
+		height: 39px;
+		padding: 8px 8px;
+		box-sizing:  border-box;
+		border: 3px solid #555;
+		transition: 0.5s;
+		outline: none;
+        width: 50%;
+	    }
+	
+	    input[type=tel]:focus {
+		
+		border: 3px solid #ccc
+	    }
+        
+        
+        
+		/*Footer style------------------------------------------------------------------------------------------------------>*/
+		
+		
+		footer{
+			height: auto;
+		}
+        
+        footer .col-lg-4, .col-lg-4, .col-lg-4{
+            margin: 0;
+            padding: 0;
+			background-color:#252424;
+        }
+		.box1, .box2, .box3{
+			height: 200px;
+            margin: 2%;
+		}
+        
+        .box1 a{
+            text-decoration: none;
+            color:chartreuse;
+            margin-left: 2.5%;
+            font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+        }
+        
+        .box2 div{
+            margin-left: 5%;
+            padding-top: 1%;
+        }
+        
+        .box2 p{
+            font-weight: 500;
+            color: whitesmoke;
+            padding-top: 2%;
+            padding-left: 12%;
+        }
+        
+        .box3 div{
+            margin-left: 7.5%;
+        }
+        .box3 img{
+            margin: 1%
+        }
+        
+	
+	
+	</style>
+
+<body>
+	 
+    <!--Main Container- Start------------------------------------------------------------------------------------------------------------>
+
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-sm-12">
+        
+			
+	<header>
+		
+		<div class="row">
+		<div class="col-lg-1">
+		<div class="logo">
+		<img src="icons/Logo_5.png" alt="Logo" style="width: 65px ;height:65px;margin-left: 25%"/>
+		</div>	
+		</div>
+		
+		
+		<div class="col-lg-9">
+		<div class="title">
+        <h2 style="color:#2D87D1;font-family:'Gill Sans MT'; font-size: 50px;"><b><i>Safar Co.<small style="color:darkorange"> Travels</small></i></b></h2>
+		</div>	
+		</div>
+        
+        <div class="col-lg-2">
+        <div class="dropdown">
+        <a href="login.html" style="text-decoration: none;" class="dropdownbtn"><img src="icons/Icon_2.png" alt="user" style="width: 50px; height: 50px;float: left; margin-top: 2%;" />
+        <h2  style="color: white;margin-top: 6%; margin-left:60px; font-size: 28px; font-family: Calibri; ">Login/SignUp</h2></a>
+        <div class="dropdown-content" style="z-index: 9999;margin-top: 2%; width: 210px;">
+            <a href="#">Profile</a>
+            <a href="#">Sign Out</a>
+        </div>   
+        </div>  
+        
+        </div>
+            
+		</div>
+	</header>
+			
+			<!--NAV Start-------------------------------------------------------------------------------->
+		
+            <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+   <a class="navbar-brand" href="#">Navbar</a>
+                <div class="nav-item">
+                <a href="#">Home</a>
+                <a href="#">Packages</a>
+                <div  class="dropdown">
+                    <button class="dropdownbtn" style="border: none; padding: 12px;">Booking</button>
+                    <div class="dropdown-content">
+                    <a href="#">Flights</a>
+                    <a href="#">Hotels</a>
+                    <a href="#">Cruises</a>
+                    
+                    </div>
+                    
+                </div>
+                <a href="#">About Us</a>
+  
+                </div>
+</nav>
+            
+            
+            
+			<!--NAV Start-------------------------------------------------------------------------------->
+			
+			<!---Content Start-------------------------------------------------------------------------->
+    <div class="content">
+    <div class="row">
+    <div class="col-lg-3"></div>
+    <div class="col-lg-6">
+				
+	    <div class="signup_panel">
+		
+		<div class="heading_section">
+		
+		<div class="sign">
+		<h2 style="color: crimson;padding-top: 3%; margin-left: 2%;font-family: Calibri; font-size: 50px;"><b>Safar Co.<small style="color:darkorange"> Travels</small></b></h2>
+		</div>
+		
+		<h4 style="color: #3078CF; margin-left: 2%; font-weight: lighter">Create Account</h4>
+		<hr>
+		</div>
+		
+		<form style="margin: 4%;" name="siform">
+		
+		<tr>
+		<td><b style="font-weight: 500">First Name:</b></td><span id="fname"></span><br>
+		<td><input type="text" name="fname" placeholder="Enter First Name"/></td>
+		</tr>
+
+		<tr><br>
+		<td><b style="font-weight: 500">Last Name:</b></td><span id="lname"></span><br>
+		<td><input type="text" name="lname" placeholder="Enter Last Name"/></td>
+		</tr>
+            
+        <tr><br>
+		<td><b style="font-weight: 500">Gender:</b></td><span id="gender"></span><br>
+		<td><select name="gender"><option>Not Defined</option><option>Male</option><option>Female</option></select></td>
+		</tr>
+
+		<tr><br>
+		<td><b style="font-weight: 500">Email:</b></td><span id="email"></span><br>
+		<td><input type="email" name="email" placeholder="Enter Email"/></td>
+		</tr>
+
+		<tr><br>
+		<td><b style="font-weight: 500">Date of Birth:</b></td><span id="bdate"></span><br>
+		<td><input type="date" name="bdate"/></td>
+		</tr>
+		
+		<tr><br>
+		<td><b style="font-weight: 500">Mobile No.</b></td><span id="number"></span><br>
+		<td><input type="tel" name="number" placeholder="03123456789"/></td>
+		</tr>
+			
+		<tr><br>
+		<td><b style="font-weight: 500">Password:</b></td><span id="pass"></span><br>
+		<td><input type="password" name="password" placeholder="Create Pasword"/></td>
+		</tr>
+			
+		<tr><br>
+        <td><b style="font-weight: 500">Confirm Password:</b></td><span id="cfrmpass"></span><br>
+		<td><input type="password" name="cfrmpassword" placeholder="Confirm Pasword"/></td>
+		</tr>
+			
+		<tr><br><br>
+		<td><input type="checkbox" name="Agree" required /></td>
+		<td>Check "Agree" if you agree with the <a href="#" style="text-decoration: none">Terms & Conditions.</a><span id="Agree"></span></td>
+		</tr>
+            
+        <tr><br><br>
+        <td><input type="button"  class="text-justify text-center" value="Create Account" onClick="validation()" style="width: 32%;padding: 1.5%; background-color: #3078CF; border: none;color: white; border-radius:3px 3px 3px 3px; font-size: 100%;" /></td>
+        </tr>
+        
+        
+			
+		</form>
+            
+            <!---------------------------JAVA SCRIPT FOR VALIDATION------------------------------------------------------>
+            
+                <script>
+                function validation()
+                    {
+                        
+                        var fname=document.forms['siform']['fname'].value;
+                        var lname=document.forms['siform']['lname'].value;
+                        var email=document.forms['siform']['email'].value;
+                        var bdate=document.forms['siform']['bdate'].value;
+                        var number=document.forms['siform']['number'].value;
+                        var password=document.forms['siform']['password'].value;
+                        var cfrmpassword=document.forms['siform']['cfrmpassword'].value;
+                        if (fname)
+                            {
+                                if(fname=="")
+                                {
+                                    document.getElementById('fname').innerHTML="Enter First Name!";
+                                }
+                                else{
+                                    document.getElementById('fname').innerHTML="";
+                                }
+                            }
+                        
+                        else if (lname=="")
+                            {
+                                document.getElementById('lname').innerHTML="Enter Last Name !";
+                            }
+                        else if (email=="")
+                            {
+                                document.getElementById('email').innerHTML="Enter Email!";
+                            }
+                         else if (bdate=="")
+                            {
+                                document.getElementById('bdate').innerHTML="Select Birthdate!";
+                            }
+                        else if (number=="")
+                            {
+                                document.getElementById('number').innerHTML="Enter Number!";
+                            }
+                        else if (password=="")
+                            {
+                                document.getElementById('pass').innerHTML="Enter Password!";
+                            }
+                        else if (cfrmpassword=="")
+                            {
+                                document.getElementById('cfrmpass').innerHTML="Enter Confirm Password!";
+                            }
+                        
+                        else if (password !=cfrmpassword)
+                            {
+                                document.getElementById('cfrmpass').innerHTML="Password Should Match!";
+                            }
+                        else if (!document.getElementsByName('Agree').checked)
+                            {
+                                document.getElementById('Agree').innerHTML="Click Agree To Preceed!";
+                            }
+                    }
+                    
+                  
+                </script>
+				
+                <script>
+                    if ( window.history.replaceState ) {
+                        window.history.replaceState( null, null, window.location.href );
+                    }
+                </script>
+		
+	</div>			
+							
+	</div>
+    <div class="col-lg-3"></div>
+</div>
+			
+        </div>
+			<!---Content End------------------------------------------------------------------------------>
+            
+            
+			<!----Foooter Start---------------------------------------------------------------------------->
+			<footer>
+			<div class="row">
+    <div class="col-lg-4">
+	
+		<div class="box1">
+		<h1 style="margin-left: 7%;padding-top: 3%; color:azure; font-family:Calibri"><b>Safar Co. Travels</b></h1>
+        
+        <a style="margin-left: 7%" href="#"><b>Home &nbsp; .</b></a>
+        <a href="#"><b>Pricing &nbsp;  .</b></a>
+        <a href="#"><b>About  &nbsp; .</b></a>
+        <a href="#"><b>Contact Us</b></a><br><br>
+            
+        <p style="margin-left: 7%;color: whitesmoke; "> <b>Designs © Copyright of 2019</b></p>
+		</div>
+		
+	</div>
+				
+    <div class="col-lg-4">
+	<div class="box2">
+        <div style="padding-top: 3%;">
+        <img src="icons/map.png" style="width: 40px; height: 40px; float: left " alt="Location"  /><p>Abc Street, Karachi</p>
+	    </div>
+        
+        <div>
+        <img src="icons/phone-receiver.png" alt="phone" style="width: 40px;height: 40px;float: left " /><p>+021-32145678</p>
+        </div>
+        
+        <div>
+        <img src="icons/letter.png" alt="phone" style="width: 40px;height: 40px;float: left " /><p>Support@developer.com</p>
+        </div>
+    </div>			
+				
+				
+	</div>
+				
+				
+				
+    <div class="col-lg-4">
+				
+	<div class="box3">
+	<h5 style="padding:5% 0 0 8%; color: beige"><b>About the Safar Co. Limited</b></h5>
+    <p style="padding-left:8%; font-size: 80%; padding-right:8%; color: silver">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+    
+    <div>
+    <img src="icons/facebook (2).png" alt="facebook" style="width: 30px; height: 30px;float: left" />
+    <img src="icons/408758.png" alt="facebook" style="width: 30px; height: 30px;float: left" />
+    <img src="icons/linkedin.png" alt="facebook" style="width: 30px; height: 30px;float: left" />
+    <img src="icons/github-logo.png" alt="facebook" style="width: 30px; height: 30px;float: left" />
+	</div>
+    
+    </div>			
+				
+	</div>
+				
+				
+</div>
+    <hr style="background-color: whitesmoke;">
+			
+			</footer>
+			
+			<!--Foooter End----------------------------------------------------------------------------->
+			
+			
+		</div>
+		</div>
+	</div>
+	<!--Main Container- End----------------------------------------------------------------------------------------------->
+</body>
+</html>
